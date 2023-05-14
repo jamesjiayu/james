@@ -35,11 +35,11 @@ function App () {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/project" element={<Projects />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/resume" element={<Resume />} />
-          <Route exact path="*" element={<Navigate to="/" />} />
+          <Route path="/james" element={<Home />} />
+          <Route path="/james/project" element={<Projects />} />
+          <Route path="/james/about" element={<About />} />
+          <Route path="/james/resume" element={<Resume />} />
+          <Route path="*" element={<Navigate to="/james" />} />
         </Routes>
         <Footer />
       </div>
